@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Fondo morado claro */
+        }
+
+        #contenedor {
+            width: 300px;
+            margin: 50px auto;
+            background-color: #8e44ad; /* Fondo morado claro */
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row; /* Modificado a "row" para que estén uno al lado del otro */
+            justify-content: space-between; /* Espaciado uniforme entre los botones */
+        }
+
+        button {
+            flex: 1; /* Para que ocupen el mismo espacio */
+            padding: 10px;
+            margin-right: 10px; /* Espacio entre los botones */
+            background-color: #8e44ad; /* Fondo morado */
+            color: #fff; /* Texto blanco */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3498db; /* Fondo azul al pasar el cursor */
+        }
+    </style>
+    <title>Botones con CSS</title>
+</head>
+<body>
+
+<div id="contenedor">
+    <button>Inicio</button>
+    <button>¿Quiénes somos?</button>
+    <button>Contacto</button>
+</div>
+
+</body>
+</html>
